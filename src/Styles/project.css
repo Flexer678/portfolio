@@ -1,0 +1,71 @@
+@import './constants.css';
+
+
+
+
+.Title{
+    padding: 100px 0px 50px 0px;
+    font-size: 100vh;
+    
+}
+
+
+.ProjectsContainer{
+    background-color: var(--highlight-color);
+    min-height: 100vh;
+}
+
+.projectItem{
+    width: 80%;
+    background-color: var(--secondary-color);
+    height: 530px;
+    display: grid;
+    margin: 50px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.projectItem img{
+    border-radius: 20px;
+    height: 200px;
+}
+
+.projectItem code{
+    background-color: black;
+    color: white;
+}
+
+.projectItem h1{
+    font-size: 50px;
+}
+
+.Texts{
+    border: 2px solid white;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+
+}
+
+.projectItem button{
+    border: 1px solid white;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    margin: 5px;
+}
+
+@media (max-width: 1300px) {
+    .projectItem img {
+        height: 18vw;
+    }
+    
+}
+
+@media (max-width: 500px) {
+   .projectItem{
+    width: 60vw;
+   }
+
+}

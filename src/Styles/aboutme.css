@@ -1,0 +1,39 @@
+@import './constants.css';
+
+.Container{
+    min-height: 100vh;
+    background-color: var(--highlight-color);
+}
+
+
+.About-me{
+    
+ 
+    text-align: center;
+    padding: 40px;
+    margin-top: 80px;
+    display: grid;
+    align-self: center;
+    justify-self: center;
+
+}
+
+
+h1 ,h3{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.Skills{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+
+
+.stats{
+    max-width: 400px;
+}

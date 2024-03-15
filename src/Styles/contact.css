@@ -1,0 +1,92 @@
+@import './constants.css';
+
+
+.ContactContainer{
+    background-color: var(--highlight-color);
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.Title{
+    align-self: center;
+    justify-self: center;
+    width: 90%;
+    text-align: center;
+    font-size:2rem;
+}
+
+.emailContainer form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+.emailContainer input {
+    padding: 20px 20px;
+    margin: 20px;
+    width: 30vw;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 10px;
+}
+
+.detailsInput{
+    padding: 10px 20px;
+        margin: 20px;
+        width: 30vw;
+        height: 100px;
+        background-color: white;
+        border: 0px;
+        resize: none;
+        border-radius: 10px;
+
+}
+
+
+input:focus,
+textarea:focus{
+    outline: none;
+}
+
+.emailInput:active{
+    border: 0px;
+}
+
+.submit-button{
+    background-color: var(--secondary-color);
+    color: white;
+    
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 20vw;
+    padding: 20px 10px;
+    align-self: center;
+    justify-self: center;
+}
+
+
+
+.submission-page{
+    width: 100%;
+    display: grid;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-highlight-color);
+    color: var(--secondary-color);
+}
+
+@media (max-width: 1000px) {
+    .Title{
+        font-size: 20px;
+    }
+}
