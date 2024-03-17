@@ -6,7 +6,8 @@ import {Link} from 'react-router-dom'
 import { Maintextdata } from '../data/maintextdata'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
-import InstagramIcon from '@mui/icons-material/Instagram'
+
+
 function Home() {
     const [text]  = useTypewriter({
         words:Maintextdata,

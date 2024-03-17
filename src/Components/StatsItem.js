@@ -7,7 +7,7 @@ function StatsItem({language, level}) {
   return (
     <div className='stats'>
       <h3>{language}</h3>
-      <Progress percent={level}  />
+      <Progress percent={level} />
     </div>
   )
 }

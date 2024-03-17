@@ -12,7 +12,7 @@
 
 .ProjectsContainer{
     background-color: var(--highlight-color);
-    min-height: 100vh;
+    min-height: 150vh;
 }
 
 .projectItem{

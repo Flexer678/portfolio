@@ -42,7 +42,7 @@ function AboutMe() {
              <StatsItem language={k.tool} level={k.level} key={v}/>
           )
         })
-      },
+      }
       </div>
     </div>  
     </div>

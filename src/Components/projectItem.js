@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 function ProjectItem({name, images, timeframe, link, description, code }) {
-console.log(link)
+
   return (
     <div className='projectItem' >
       <div className='images' >
